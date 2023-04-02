@@ -1,0 +1,44 @@
+@font-face {
+  font-family: kingdom;
+  src: url('../fonts/TheQualityBrave-Regular.ttf');
+}
+
+.navBar {
+ transition: 500ms;
+}
+
+.navBar:hover {
+ font-size: 49px;
+ color: black;
+ background: url('../images/pergaminho.png') no-repeat;
+ background-position: center;
+ background-size: contain;
+}
+
+.chose {
+ font-size: 75px;
+ display: flex;
+ font-family: kingdom;
+ justify-content: center;
+ padding-bottom: 2%;
+ color: white;
+}
+
+ .Header {
+ font-family: kingdom;
+}
+
+a {
+  font-size: 43px;
+  color: white;
+}
+
+a:link {
+ text-decoration: none;
+ padding-left: 20px;
+}
+
+.Title {
+  font-size: 55px;
+  padding-left: 20.75%;
+}

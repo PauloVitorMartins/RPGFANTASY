@@ -1,0 +1,27 @@
+@font-face {
+    font-family: kingdom;
+    src: url('../fonts/TheQualityBrave-Regular.ttf');
+  }
+
+.ImageP {
+ width: 396px;
+ cursor: pointer;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: kingdom;
+}
+
+.inside:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+  }
+
+.race {
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+}
