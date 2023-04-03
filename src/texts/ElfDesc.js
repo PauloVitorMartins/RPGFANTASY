@@ -1,4 +1,4 @@
-import '../css/elfPage.css'
+import '../css/racePage.css'
 
 export default function ElfDesc () {
     return (

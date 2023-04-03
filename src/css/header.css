@@ -21,7 +21,7 @@
  font-family: kingdom;
  justify-content: center;
  padding-bottom: 2%;
- color: white;
+ color: black;
 }
 
  .Header {
@@ -39,6 +39,7 @@ a:link {
 }
 
 .Title {
+  color: black;
   font-size: 55px;
   padding-left: 20.75%;
 }

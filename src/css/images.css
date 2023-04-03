@@ -21,6 +21,7 @@
   }
 
 .race {
+ color: black;
  cursor: pointer;
  display: flex;
  justify-content: center;

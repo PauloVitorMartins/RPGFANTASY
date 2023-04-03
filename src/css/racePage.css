@@ -1,0 +1,30 @@
+.elfImage {
+ width: 30%;
+ border-radius: 20%;
+ padding: 2.5%;
+}
+
+.theElfs {
+ font-family: kingdom;
+ color: black;
+ padding-left: 45.3%;
+ font-size: 55px;
+}
+
+body {
+  background-color: #e7e7db;
+}
+
+.elfBox {
+ margin-left: 2%;
+ width: 80%;
+ display: flex;
+ flex-direction: row;
+ color: black;
+}
+
+.textRef {
+  padding-top: 2.5%;
+  font-size: 150%;
+  font-family: kingdom;
+}
