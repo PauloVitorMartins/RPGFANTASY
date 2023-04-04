@@ -62,7 +62,17 @@
   }
 
   .underBar {
-    color: #d2d2ca;
+    width: 100%;
+  }
+
+  .parapeito {
+    background-image: url('../images/parapeito.png.png');
+    height: 4em;
+    background-repeat: repeat-x;
+    background-position: 100%;
+    background-size: contain;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 100%;
   }
   

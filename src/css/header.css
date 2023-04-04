@@ -4,11 +4,15 @@
 }
 
 .navBar {
+ background-image: url('../images//wallNavBar.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-left: 2%;
+ color: black;
  transition: 500ms;
 }
 
 .navBar:hover {
- font-size: 49px;
  color: black;
  background: url('../images/pergaminho.png') no-repeat;
  background-position: center;
@@ -19,7 +23,7 @@
   width: 7%;
   position: absolute;
   right: 5px;
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .backgroundT {
@@ -40,6 +44,7 @@
 }
 
  .Header {
+  background-image: url('../images/wall.png');
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -56,8 +61,10 @@ a:link {
  padding-left: 20px;
 }
 
-.Title {
-  color: black;
-  font-size: 55px;
-  padding-left: 20.75%;
+.logo {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 30%;
+  padding-left: 14%;
+
 }

@@ -4,6 +4,7 @@ import ImagesRace from '../components/Images';
 import orcFlag from '../images/orcFlag.png';
 import humanFlag from '../images/humanFlag.png';
 import elfFlag from '../images/elfFlag.png';
+import parapeito from '../images/parapeito.png';
 import leftArrow from '../images/arcoSeta.png';
 import rightArrow from '../images/rightArrow.png';
 import React, {useState} from 'react';
@@ -28,7 +29,7 @@ export default function Home () {
     return (
 <div className='everything'>
       <Header />
-      <hr className='underBar'></hr>
+      <hr className='parapeito'></hr>
       <div className='underUnderBar'>
       <div className='wall'>
       <Chose />
