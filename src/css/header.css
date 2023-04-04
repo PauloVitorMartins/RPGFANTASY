@@ -7,13 +7,16 @@
  background-image: url('../images//wallNavBar.png');
  background-repeat: no-repeat;
  background-size: cover;
+ padding-top: 1%;
+ padding-right: 1%;
  padding-left: 2%;
- color: black;
+ color: rgb(63, 59, 59);
  transition: 500ms;
 }
 
 .navBar:hover {
- color: black;
+ padding-top: 0%;
+ color: rgb(0, 0, 0);
  background: url('../images/pergaminho.png') no-repeat;
  background-position: center;
  background-size: contain;
