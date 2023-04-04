@@ -31,6 +31,10 @@
  color: black;
  cursor: pointer;
  display: flex;
+ background-image: url('../images/pergaminho.png');
+ background-repeat: no-repeat;
+ background-size: 30%;
+ background-position: 53%;
  justify-content: center;
  padding-bottom: 5%;
 }
