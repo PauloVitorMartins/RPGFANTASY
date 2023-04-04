@@ -4,10 +4,12 @@ import ImagesRace from '../components/Images';
 import orcFlag from '../images/orcFlag.png';
 import humanFlag from '../images/humanFlag.png';
 import elfFlag from '../images/elfFlag.png';
+import leftArrow from '../images/arcoSeta.png';
+import rightArrow from '../images/rightArrow.png';
 import React, {useState} from 'react';
-import elf from '../images/elf.jpg';
-import orc from '../images/orc.jpg';
-import human from '../images/human.jpg';
+import elf from '../images/elf.png';
+import orc from '../images/orc.png';
+import human from '../images/human.png';
 import '../css/home.css';
 
 export default function Home () {
@@ -30,11 +32,11 @@ export default function Home () {
       <div className='underUnderBar'>
       <Chose />
       <div className='imageDivs'>
-      <button onClick={funcSet}>seta</button>
+      <button onClick={funcSet}><img className="arrowB" src={leftArrow}/></button>
       {whoExibs === 1 &&<ImagesRace imageRace={elfFlag} link={elf} race='elf'/>}
       {whoExibs === 0 && <ImagesRace imageRace={humanFlag} link={human} race='human'/>}
       {whoExibs === 2 &&<ImagesRace imageRace={orcFlag} link={orc} race='orc'/>}
-      <button onClick={funcSetSub}>seta</button>
+      <button onClick={funcSetSub}><img className="arrowB" src={rightArrow} /></button>
       </div>
       </div>
     </div>

@@ -4,21 +4,28 @@
   }
 
 .ImageP {
- width: 396px;
  cursor: pointer;
+ display: flex;
+ justify-content: center;
 }
 
 .inside {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
+    margin-left: -1%;
     font-family: kingdom;
 }
 
 .inside:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 500ms;
   }
+
+.inside:not(:hover) {
+  transform: scale(1);
+  transition: 500ms;
+}
 
 .race {
  color: black;

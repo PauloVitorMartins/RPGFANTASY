@@ -18,6 +18,36 @@
 
   }
 
+  button {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 1em;
+  }
+
+  .arrowB:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+  }
+
+  .arrowB:not(:hover) {
+    transform: scale(1);
+    transition: 500ms;
+  }
+
+  buttton:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+  }
+
+  button:not(:hover) {
+    transform: scale(1);
+    transition: 500ms;
+  }
+
   .underBar {
     color: #d2d2ca;
     width: 100%;

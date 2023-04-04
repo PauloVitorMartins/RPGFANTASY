@@ -32,6 +32,7 @@
  display: flex;
  font-family: kingdom;
  justify-content: center;
+ padding-left: 0;
  color: black;
 }
 
