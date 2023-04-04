@@ -32,6 +32,9 @@
  display: flex;
  font-family: kingdom;
  justify-content: center;
+ background-image: url('../images/pergaminhoTitle.png');
+ background-repeat: no-repeat;
+ background-position: 50%;
  padding-left: 0;
  color: black;
 }

@@ -30,13 +30,17 @@ export default function Home () {
       <Header />
       <hr className='underBar'></hr>
       <div className='underUnderBar'>
+      <div className='wall'>
       <Chose />
+      <div className='disp'>
       <div className='imageDivs'>
-      <button onClick={funcSet}><img className="arrowB" src={leftArrow}/></button>
+      <button id='r' onClick={funcSetSub}><img className="arrowB" src={leftArrow}/></button>
       {whoExibs === 1 &&<ImagesRace imageRace={elfFlag} link={elf} race='elf'/>}
       {whoExibs === 0 && <ImagesRace imageRace={humanFlag} link={human} race='human'/>}
       {whoExibs === 2 &&<ImagesRace imageRace={orcFlag} link={orc} race='orc'/>}
-      <button onClick={funcSetSub}><img className="arrowB" src={rightArrow} /></button>
+      <button id='l' onClick={funcSet}><img className="arrowB" src={rightArrow} /></button>
+      </div>
+      </div>
       </div>
       </div>
     </div>
