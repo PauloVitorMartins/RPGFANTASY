@@ -15,6 +15,13 @@
  background-size: contain;
 }
 
+.dragonGIF {
+  width: 7%;
+  position: absolute;
+  right: 5px;
+  padding-top: 4%;
+}
+
 .backgroundT {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -25,14 +32,13 @@
  display: flex;
  font-family: kingdom;
  justify-content: center;
- padding-bottom: 2%;
  color: black;
- background: url('../images/pergaminhoTitle.png') no-repeat;
- background-size: auto;
- background-position: 50% 10%;
 }
 
  .Header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
  font-family: kingdom;
 }
 

@@ -12,9 +12,14 @@
       animation: App-logo-spin infinite 20s linear;
     }
   }
-  
+
+  .everything {
+    background-color: #e7e7db;
+
+  }
+
   .underBar {
-    color: #da5450;
+    color: #d2d2ca;
     width: 100%;
   }
   

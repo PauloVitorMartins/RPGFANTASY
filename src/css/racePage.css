@@ -1,4 +1,5 @@
 .elfImage {
+ z-index: 2;
  width: 30%;
  border-radius: 20%;
  padding: 2.5%;
@@ -11,8 +12,9 @@
  font-size: 55px;
 }
 
-body {
+.everythingRace {
   background-color: #e7e7db;
+  overflow: hidden;
 }
 
 .elfBox {

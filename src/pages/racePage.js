@@ -9,7 +9,7 @@ export default function RacePage (props) {
   const image = props.image
   const text = props.text
   return (
-    <div className='Everything'>
+    <div className='everythingRace'>
       <Header />
       <hr className='underBar'></hr>
       <h1 className='theElfs'>{text}</h1>
