@@ -5,6 +5,7 @@ import orcFlag from '../images/orcFlag.png';
 import humanFlag from '../images/humanFlag.png';
 import elfFlag from '../images/elfFlag.png';
 import parapeito from '../images/parapeito.png';
+import dwarf from '../images/Dwarf.png';
 import leftArrow from '../images/arcoSeta.png';
 import rightArrow from '../images/rightArrow.png';
 import React, {useState} from 'react';
@@ -16,7 +17,7 @@ import '../css/home.css';
 export default function Home () {
     const [whoExibs, setWhoExibs] = useState(0);
     const funcSet = () => {
-        if (whoExibs < 2) {
+        if (whoExibs < 3) {
             setWhoExibs(whoExibs + 1);
             console.log(whoExibs);
         }
@@ -39,6 +40,7 @@ export default function Home () {
       {whoExibs === 1 &&<ImagesRace imageRace={elfFlag} link={elf} race='elf'/>}
       {whoExibs === 0 && <ImagesRace imageRace={humanFlag} link={human} race='human'/>}
       {whoExibs === 2 &&<ImagesRace imageRace={orcFlag} link={orc} race='orc'/>}
+      {whoExibs === 3 && <ImagesRace link={dwarf} race='dwarf'/>}
       <button id='l' onClick={funcSet}><img className="arrowB" src={rightArrow} /></button>
       </div>
       </div>

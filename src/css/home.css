@@ -70,7 +70,8 @@
   }
 
   .parapeito {
-    background-image: url('../images/parapeito.png.png');
+    background-image: url('../images/parapeito.png');
+    border: none;
     height: 4em;
     background-repeat: repeat-x;
     background-position: 100%;
