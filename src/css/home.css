@@ -14,11 +14,15 @@
   }
 
   .everything {
-    background-color: #e7e7db;
+    background-image: url('../images/wall.png');
 
   }
 
   .wall {
+    background-image: url('../images/wall.png');
+  }
+
+  body {
     background-image: url('../images/wall.png');
   }
 
@@ -51,7 +55,7 @@
     transition: 500ms;
   }
 
-  buttton:hover {
+  button:hover {
     transform: scale(1.1);
     transition: 500ms;
   }

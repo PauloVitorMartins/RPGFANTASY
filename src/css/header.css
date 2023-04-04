@@ -7,6 +7,8 @@
  background-image: url('../images//wallNavBar.png');
  background-repeat: no-repeat;
  background-size: cover;
+ font-size: x-large;
+ font-style: bold;
  padding-top: 1%;
  padding-right: 1%;
  padding-left: 2%;
@@ -23,10 +25,10 @@
 }
 
 .dragonGIF {
-  width: 7%;
+  width: 6%;
   position: absolute;
   right: 5px;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .backgroundT {
@@ -35,13 +37,16 @@
 }
 
 .chose {
- font-size: 60px;
+ margin-bottom: 1.5%;
+ font-size: 240%;
  display: flex;
  font-family: kingdom;
  justify-content: center;
  background-image: url('../images/pergaminhoTitle.png');
  background-repeat: no-repeat;
+ margin-top: 0.5%;
  background-position: 50%;
+ background-size: contain;
  padding-left: 0;
  color: black;
 }

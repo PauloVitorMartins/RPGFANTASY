@@ -4,6 +4,8 @@
   }
 
 .ImageP {
+ padding-left: 5%;
+ width: 90%;
  cursor: pointer;
  display: flex;
  justify-content: center;
@@ -37,4 +39,5 @@
  background-position: 53%;
  justify-content: center;
  padding-bottom: 5%;
+ margin-top: -3%;
 }
