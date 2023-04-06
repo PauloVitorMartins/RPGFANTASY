@@ -1,0 +1,28 @@
+.background-race-home {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+
+  }
+
+.texto {
+  position: relative;
+  color: white;
+  font-size: 400%;
+  padding-left: 40%;
+  font-family: Cardinal;
+}
+
+.evey {
+  background-color: black;
+  margin-top: 0%;
+}
+
+.main-cont {
+  margin-top: -2%;
+  position: relative;
+  z-index: 1;
+}
+
+

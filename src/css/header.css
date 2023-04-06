@@ -3,20 +3,44 @@
   src: url('../fonts/TheQualityBrave-Regular.ttf');
 }
 
+@font-face {
+  font-family: cherry;
+  src: url('../fonts/Cherry\ Monospace-Light.ttf');
+}
+
+@font-face {
+  font-family: cardinal;
+  src: url('../fonts/Cardinal.ttf');
+}
+
+.kingdom-title {
+  font-size: x-large;
+}
+
+.kingdom {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  font-family: cardinal;
+  background-color: #202020;
+}
+
+.kingdom-title:hover {
+  color: #d7d7d7;
+}
+
 .navBar {
- background-image: url('../images//wallNavBar.png');
- background-repeat: no-repeat;
- background-size: cover;
- font-size: x-large;
+ font-size: large;
  font-style: bold;
- padding-top: 1%;
+ font-family: cherry;
  padding-right: 1%;
  padding-left: 2%;
- color: rgb(63, 59, 59);
- transition: 500ms;
+ color: white;
+ transition: 900ms;
 }
 
 .navBar:hover {
+  font-family: kingdom;
  padding-top: 0%;
  color: rgb(0, 0, 0);
  background: url('../images/pergaminho.png') no-repeat;
@@ -24,38 +48,17 @@
  background-size: contain;
 }
 
-.dragonGIF {
-  width: 6%;
-  position: absolute;
-  right: 5px;
-  padding-top: 2%;
-}
-
-.backgroundT {
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.chose {
- margin-bottom: 1.5%;
- font-size: 240%;
- display: flex;
- font-family: kingdom;
- justify-content: center;
- background-image: url('../images/pergaminhoTitle.png');
- background-repeat: no-repeat;
- margin-top: 0.5%;
- background-position: 50%;
- background-size: contain;
- padding-left: 0;
- color: black;
+.navBar:not(:hover) {
+  transform: scale(1);
+  transition: 900ms;
 }
 
  .Header {
-  background-image: url('../images/wall.png');
+  background-color: #2b2b2b;
   display: flex;
   align-items: center;
-  flex-direction: row;
+ flex-direction: row;
+ height: 3em;
  font-family: kingdom;
 }
 
@@ -67,12 +70,4 @@ a {
 a:link {
  text-decoration: none;
  padding-left: 20px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 30%;
-  padding-left: 14%;
-
 }
