@@ -1,0 +1,49 @@
+.fundoTrasgo {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.main-content-trasgo {
+    margin-top: -2%;
+    width: 100%;
+    text-align: center;
+    height: 28em;
+    padding-bottom: 20%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-image: url(../images/bestiary/fundoPagina.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.backToBestiary {
+    color: black;
+    font-family: cardinal;
+}
+
+.backToBestiary:hover {
+    margin-top: 0%;
+}
+
+.textTrasgoMain {
+    color: black;
+    text-align: start;
+    padding-left: 37%;
+    margin-top: -4%;
+}
+
+.textTrasgo {
+    color: black;
+    margin-top: -3%;
+}
+
+.titleTrasgo {
+    padding-top: 2%;
+    font-size: 400%;
+    position: relative;
+    color: black;
+    z-index: 1;
+}
