@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Trasgo from './pages/trasgo';
+import Creature from './pages/Creature';
 import trasgoDesc from './texts/TrasgoDesc';
 import acromantula from './images/bestiary/acromantulasFundo.png';
 import acromantulaDesc from './texts/AcromantulaDesc';
@@ -14,8 +14,8 @@ function App() {
      <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/racePageHome' element={<RacePageHome />} />
-      <Route path='/trasgo' element={<Trasgo image={trasgo} creatureContent={trasgoDesc}/>} />
-      <Route path='/acromantula' element={<Trasgo image={acromantula} creatureContent={acromantulaDesc}/>} />
+      <Route path='/trasgo' element={<Creature image={trasgo} creatureContent={trasgoDesc}/>} />
+      <Route path='/acromantula' element={<Creature image={acromantula} creatureContent={acromantulaDesc}/>} />
      </Routes>
     </BrowserRouter>
   );
