@@ -8,7 +8,7 @@ export default function Header () {
         </div>
         <header className="Header">
             <a className='navBar' href="/">Home</a>
-            <a className='navBar' href="/">Bestiary</a>
+            <a className='navBar' href="/bestiary">Bestiary</a>
             <a className='navBar' href="/">Places</a>
         </header>
         </div>

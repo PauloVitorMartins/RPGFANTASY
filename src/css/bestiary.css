@@ -1,0 +1,38 @@
+.background-b {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.title-book {
+  font-size: 300%;
+  padding-left: 10%;
+  color: black;
+}
+
+.main-content-b {
+  padding-left: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  z-index: 1;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 50em;
+  background-image: url('../images/bestiary/livrinhoFundo.png');
+}
+
+.everythingBest {
+background-color: black;
+}
+
+.textBook {
+    width: 10%;
+    z-index: 1;
+    color: black;
+    padding-left: 2%;
+    font-family: cardinal;
+}

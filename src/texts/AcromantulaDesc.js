@@ -21,7 +21,7 @@ export default function AcromantulaT () {
         <p className='textCreature'>tente corta-lás</p>
         <p className='textCreature'>assim talvez não vire jantar</p>
         </div>
-        <button className="backToBestiary" onClick={() => navigate('/bestiary')}>Back</button>
+        <a className="backToBestiary" href='/bestiary'>Back</a>
       </div>
 
     )

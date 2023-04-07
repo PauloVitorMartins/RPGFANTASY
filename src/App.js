@@ -6,6 +6,7 @@ import acromantula from './images/bestiary/acromantulasFundo.png';
 import acromantulaDesc from './texts/AcromantulaDesc';
 import trasgo from './images/bestiary/fundoTrasgo.png';
 import RacePageHome from './pages/RacePageHome';
+import Bestiary from './pages/Bestiary';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path='/racePageHome' element={<RacePageHome />} />
       <Route path='/trasgo' element={<Creature image={trasgo} creatureContent={trasgoDesc}/>} />
       <Route path='/acromantula' element={<Creature image={acromantula} creatureContent={acromantulaDesc}/>} />
+      <Route path='/bestiary' element={<Bestiary />} />
      </Routes>
     </BrowserRouter>
   );

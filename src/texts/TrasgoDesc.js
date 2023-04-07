@@ -22,7 +22,7 @@ export default function creatureT () {
         <p className='textCreature'>enfim, se o ver passe o cabo da espada</p>
         <p className='textCreature'>pode ganhar uns trocados</p>
         </div>
-        <button className="backToBestiary" onClick={() => navigate('/bestiary')}>Back</button>
+        <a className="backToBestiary" href='/bestiary'>Back</a>
       </div>
 
     )
